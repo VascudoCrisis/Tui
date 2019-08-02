@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuiEmulator.Api", "TuiEmulator.Api\TuiEmulator.Api.csproj", "{D848687D-C780-4076-83C9-361AECECD6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuiEmulator.Common", "TuiEmulator.Common\TuiEmulator.Common.csproj", "{06A9B790-8B7F-4467-B14B-61D36B4659F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuiEmulator.Providers", "TuiEmulator.Providers\TuiEmulator.Providers.csproj", "{228DE6E7-13BE-42DA-A0AE-FE8E3F015680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D848687D-C780-4076-83C9-361AECECD6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D848687D-C780-4076-83C9-361AECECD6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D848687D-C780-4076-83C9-361AECECD6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D848687D-C780-4076-83C9-361AECECD6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A9B790-8B7F-4467-B14B-61D36B4659F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A9B790-8B7F-4467-B14B-61D36B4659F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A9B790-8B7F-4467-B14B-61D36B4659F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A9B790-8B7F-4467-B14B-61D36B4659F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228DE6E7-13BE-42DA-A0AE-FE8E3F015680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228DE6E7-13BE-42DA-A0AE-FE8E3F015680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228DE6E7-13BE-42DA-A0AE-FE8E3F015680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228DE6E7-13BE-42DA-A0AE-FE8E3F015680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

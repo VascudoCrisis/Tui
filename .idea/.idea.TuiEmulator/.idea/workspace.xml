@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac26520e-4d5b-4dcb-9fd0-48fd4309c3b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Controllers/LocationsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Controllers/ToursController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Countries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Hotels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/TuiEmulator.Api.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/app.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/Cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/Countries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Common.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/TuiEmulator.Api.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/TuiEmulator.Api.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/TuiEmulator.Api.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/IDictService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/ISearchService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/IToursProviderService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/ApartmentsType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/City.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Country.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Hotel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Requests/SearchRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Tour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/TourProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Options/ApiOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderAggregatorOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/OrderBy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/AndSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/Specification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/CityOfDepartureSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/GuestsCountSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/NightsFromCountSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/NightsToCountSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourCitySpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourStartDatepecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/TuiEmulator.Common.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/TuiEmulator.Common.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/TuiEmulator.Common.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/TuiEmulator.Common.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Extensions/EnumerableExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/ProviderAggregator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/TuiProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Registration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Abstractions/ILocationsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/LocationsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Static/StaticRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/TuiEmulator.Providers.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuiEmulator.sln" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/TuiProvider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+              <folding>
+                <marker date="1564786236878" expanded="false" signature="6:177" ph="..." />
+                <marker date="1564786236878" expanded="true" signature="219:472" ph="{...}" />
+                <marker date="1564786236878" expanded="true" signature="267:470" ph="{...}" />
+                <marker date="1564786236878" expanded="true" signature="444:464" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Registration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <marker date="1564786236885" expanded="false" signature="6:209" ph="..." />
+                <marker date="1564786236885" expanded="true" signature="242:959" ph="{...}" />
+                <marker date="1564786236885" expanded="true" signature="281:957" ph="{...}" />
+                <marker date="1564786236885" expanded="true" signature="374:669" ph="{...}" />
+                <marker date="1564786236885" expanded="true" signature="764:951" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <folding>
+                <marker date="1564786236888" expanded="true" signature="6:176" ph="..." />
+                <marker date="1564786236888" expanded="true" signature="219:478" ph="{...}" />
+                <marker date="1564786236888" expanded="true" signature="269:476" ph="{...}" />
+                <marker date="1564786236888" expanded="true" signature="450:470" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1776">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <marker date="1564786236882" expanded="true" signature="6:480" ph="..." />
+                <marker date="1564786236882" expanded="true" signature="536:3879" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="603:3877" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="814:1207" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="1302:1431" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="1524:1651" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="1712:1794" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="1861:1946" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="2005:2087" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="2142:2226" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="2327:2865" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="2458:2794" ph="{...}" />
+                <marker date="1564786236882" expanded="true" signature="2875:3871" ph="Utilities" />
+                <marker date="1564786236882" expanded="true" signature="2991:3851" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/LocationsRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <marker date="1564786224320" expanded="false" signature="6:219" ph="..." />
+                <marker date="1564786224320" expanded="true" signature="265:958" ph="{...}" />
+                <marker date="1564786224320" expanded="true" signature="329:956" ph="{...}" />
+                <marker date="1564786224320" expanded="true" signature="395:482" ph="{...}" />
+                <marker date="1564786224320" expanded="true" signature="549:639" ph="{...}" />
+                <marker date="1564786224320" expanded="true" signature="701:788" ph="{...}" />
+                <marker date="1564786224320" expanded="true" signature="837:950" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <marker date="1564786224324" expanded="false" signature="6:245" ph="..." />
+                <marker date="1564786224324" expanded="true" signature="272:1572" ph="{...}" />
+                <marker date="1564786224324" expanded="true" signature="299:1570" ph="{...}" />
+                <marker date="1564786224324" expanded="true" signature="415:479" ph="{...}" />
+                <marker date="1564786224324" expanded="true" signature="547:1446" ph="{...}" />
+                <marker date="1564786224324" expanded="true" signature="1136:1434" ph="{...}" />
+                <marker date="1564786224324" expanded="true" signature="1502:1564" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+              <folding>
+                <marker date="1564784011866" expanded="false" signature="6:122" ph="..." />
+                <marker date="1564784011866" expanded="true" signature="149:826" ph="{...}" />
+                <marker date="1564784011866" expanded="true" signature="176:824" ph="{...}" />
+                <marker date="1564784011866" expanded="true" signature="229:303" ph="{...}" />
+                <marker date="1564784011866" expanded="true" signature="378:818" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderAggregatorOptions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="42" />
+              <folding>
+                <marker date="1564783784594" expanded="true" signature="36:206" ph="{...}" />
+                <marker date="1564783784594" expanded="true" signature="81:204" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AEDA1EA-7722-4CA6-A7CA-C000AF27DEC0/1a/4c830cf2/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderAggregatorOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/Hotel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/797C96F7-88A8-4CE1-8B80-7CACBA80FF0D/86/95699ca5/FileConfigurationProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/LocationsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/GuestsCountSpecification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/NightsFromCountSpecification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Abstractions/ILocationsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourStartDatepecification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourCitySpecification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Static/StaticRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/cb/3d70d24d/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Extensions/EnumerableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/OrderBy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/CityOfDepartureSpecification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/NightsToCountSpecification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/783E4BE0-D601-4F5D-8329-E313E8EB3469/05/b05c389f/ParallelEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/AndSpecification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Api/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/Specification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Api/Controllers/ToursController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/TuiProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/IDictService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Api/Controllers/LocationsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/d8/d8eaa461/Lazy`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12891E82-5FCE-44A5-81E5-BBBB579C1D49/83/9b2959b9/ValidationUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/ISearchService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/18/1e86c897/WebHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/ApiOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/TourProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/IToursProviderService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F4C1E2AF-34ED-4042-9212-A3B1BB606B7F/54/c22aa788/ConfigurationBinder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/ApartmentsType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/Tour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/Country.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/City.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Registration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/Requests/SearchRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E24357DC-9B77-409E-A252-FFFDAD645897/04/da26c4e8/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/ProviderAggregator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TuiEmulator.TuiProvider/TuiProvider.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.TuiProvider/Registration.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.TuiProvider/Repositories/Static/Generator.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.TuiProvider/Repositories/Static/DataGenerator.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.TuiProvider/DataGeneratorResoiures.Designer.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/DataGeneratorResoiures.Designer.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Static/DataGeneratorResources.Designer.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/DataGeneratorResources.resx" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/IProviderAggregator.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/ISearchService.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Extensions/Class1.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Extensions/TourCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Extensions/CollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/ToursCollection.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Models/Tour.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Models/ApartmentsType.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Models/TourProvider.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Models/Requests/SearchRequest.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourCitySpecification.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Specifications/CityOfDepartureSpecification.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/AndSpecification.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/Specification.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Extensions/EnumerableExtensions.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Api/Controllers/SearchController.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Api/Controllers/LocationsController.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Api/Controllers/ToursController.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/IToursService.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/IToursProviderService.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/IDictService.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Registration.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Static/DataGenerator.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/ProviderAggregator.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Options/GeneratorOptions.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/TuiProvider.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/OtherProvider.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Static/StaticRepository.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/GeneratedLocationsRepository.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Options/GeneratedToursRepositoryOptions.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/ToursRepository.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/GeneratedToursRepository.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Abstractions/IToursRepository.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderAggregatorOptions.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderOptions.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Api/Program.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Api/appsettings.json" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/ProviderAggregator.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/LocationsRepository.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/TuiProvider.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TuiEmulator" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TuiEmulator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TuiEmulator.Api" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TuiEmulator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TuiEmulator.Common" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TuiEmulator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TuiEmulator.Common" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Options" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TuiEmulator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TuiEmulator.Providers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TuiEmulator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TuiEmulator.Providers" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Providers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.TuiEmulator.Api">
+    <configuration name="TuiEmulator.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TuiEmulator.Api/TuiEmulator.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="TuiEmulator.Api" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TuiEmulator.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TuiEmulator.Api/TuiEmulator.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac26520e-4d5b-4dcb-9fd0-48fd4309c3b1" name="Default Changelist" comment="" />
+      <created>1564417518584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564417518584</updated>
+      <workItem from="1564417521482" duration="10664000" />
+      <workItem from="1564430582613" duration="5616000" />
+      <workItem from="1564493455738" duration="9291000" />
+      <workItem from="1564572784331" duration="9628000" />
+      <workItem from="1564609374101" duration="490000" />
+      <workItem from="1564610017784" duration="1767000" />
+      <workItem from="1564656231870" duration="33493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70949000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Azure Explorer" order="2" weight="0.3297568" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9020029" visible="true" weight="0.41769043" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923833" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32923833" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32923833" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Change Signature" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32923833" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5028612" side_tool="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Build" order="17" sideWeight="0.49713877" weight="0.32923833" />
+      <window_info anchor="bottom" id="REST Client" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="tasks.Select(t =&gt; t.Status);" language="C#" custom="RiderImportsList:" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>tasks.Select(t =&gt; t.Status);</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_tours</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_tours.AsQueryable().Where(aggregatedSpecification).Take(request.Take).ToArray()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_tours.AsQueryable().Where(aggregatedSpecification).Take(request.Take)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>GetAggregatedSpecification(request.Fields)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_hotels.Value</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_countries.Value</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_countries</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_hotels.IsValueCreated</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DataGeneratorResources</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/NightsFromCountSpecification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1564592718310" expanded="true" signature="6:131" ph="..." />
+            <marker date="1564592718310" expanded="true" signature="246:540" ph="{...}" />
+            <marker date="1564592718310" expanded="true" signature="345:393" ph="{...}" />
+            <marker date="1564592718310" expanded="true" signature="464:534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/DataGeneratorResoiures.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/DataGeneratorResoiures.resx" />
+    <entry file="file:///usr/local/share/dotnet/sdk/2.2.301/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="238" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/share/dotnet/sdk/2.2.301/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/DataGeneratorResources.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/DataGeneratorResources.resx" />
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Hotels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3906">
+          <caret line="186" column="11" lean-forward="true" selection-start-line="186" selection-start-column="11" selection-end-line="186" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Countries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Cities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/ProviderAggregator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E24357DC-9B77-409E-A252-FFFDAD645897/04/da26c4e8/Enumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="1722" column="36" lean-forward="true" selection-start-line="1722" selection-start-column="36" selection-end-line="1722" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Extensions/CollectionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/ToursCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/Tour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <marker date="1564693116383" expanded="true" signature="50:691" ph="{...}" />
+            <marker date="1564693116383" expanded="true" signature="74:689" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/ApartmentsType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1564693463640" expanded="true" signature="35:141" ph="{...}" />
+            <marker date="1564693463640" expanded="true" signature="68:139" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/TourProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <marker date="1564693978945" expanded="true" signature="35:159" ph="{...}" />
+            <marker date="1564693978945" expanded="true" signature="67:157" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/GeneratedToursRespository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/783E4BE0-D601-4F5D-8329-E313E8EB3469/05/b05c389f/ParallelEnumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourCitySpecification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <marker date="1564701132435" expanded="false" signature="6:131" ph="..." />
+            <marker date="1564701132435" expanded="true" signature="176:543" ph="{...}" />
+            <marker date="1564701132435" expanded="true" signature="239:541" ph="{...}" />
+            <marker date="1564701132435" expanded="true" signature="333:383" ph="{...}" />
+            <marker date="1564701132435" expanded="true" signature="454:535" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/GuestsCountSpecification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1564429485447" expanded="false" signature="6:131" ph="..." />
+            <marker date="1564429485447" expanded="true" signature="176:541" ph="{...}" />
+            <marker date="1564429485447" expanded="true" signature="242:539" ph="{...}" />
+            <marker date="1564429485447" expanded="true" signature="337:385" ph="{...}" />
+            <marker date="1564429485447" expanded="true" signature="456:533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Models/Requests/SearchRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <marker date="1564748667923" expanded="true" signature="59:715" ph="{...}" />
+            <marker date="1564748667923" expanded="true" signature="92:713" ph="{...}" />
+            <marker date="1564748667923" expanded="true" signature="132:468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/Specification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <marker date="1564748831901" expanded="false" signature="6:44" ph="..." />
+            <marker date="1564748831901" expanded="true" signature="102:616" ph="{...}" />
+            <marker date="1564748831901" expanded="true" signature="147:614" ph="{...}" />
+            <marker date="1564748831901" expanded="true" signature="319:440" ph="{...}" />
+            <marker date="1564748831901" expanded="true" signature="539:608" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/AndSpecification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <marker date="1564749003671" expanded="false" signature="6:44" ph="..." />
+            <marker date="1564749003671" expanded="true" signature="102:888" ph="{...}" />
+            <marker date="1564749003671" expanded="true" signature="169:886" ph="{...}" />
+            <marker date="1564749003671" expanded="true" signature="356:430" ph="{...}" />
+            <marker date="1564749003671" expanded="true" signature="498:880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Specifications/CityOfDepartureSpecification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <marker date="1564749013815" expanded="false" signature="6:131" ph="..." />
+            <marker date="1564749013815" expanded="true" signature="176:559" ph="{...}" />
+            <marker date="1564749013815" expanded="true" signature="246:557" ph="{...}" />
+            <marker date="1564749013815" expanded="true" signature="347:397" ph="{...}" />
+            <marker date="1564749013815" expanded="true" signature="468:551" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Extensions/EnumerableExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <marker date="1564749013829" expanded="true" signature="6:47" ph="..." />
+            <marker date="1564749013829" expanded="true" signature="91:499" ph="{...}" />
+            <marker date="1564749013829" expanded="true" signature="138:497" ph="{...}" />
+            <marker date="1564749013829" expanded="true" signature="292:491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/cb/3d70d24d/Task.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="434" column="32" selection-start-line="434" selection-start-column="32" selection-end-line="434" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/IToursProviderService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding>
+            <marker date="1564765338784" expanded="true" signature="28:118" ph="{...}" />
+            <marker date="1564765338784" expanded="true" signature="104:116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/ISearchService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1564749013806" expanded="true" signature="6:162" ph="..." />
+            <marker date="1564749013806" expanded="true" signature="192:332" ph="{...}" />
+            <marker date="1564749013806" expanded="true" signature="230:330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/IDictService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1564762239733" expanded="true" signature="6:120" ph="..." />
+            <marker date="1564762239733" expanded="true" signature="150:552" ph="{...}" />
+            <marker date="1564762239733" expanded="true" signature="186:550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Controllers/LocationsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+          <folding>
+            <marker date="1564758656800" expanded="true" signature="6:163" ph="..." />
+            <marker date="1564758656800" expanded="true" signature="202:1399" ph="{...}" />
+            <marker date="1564758656800" expanded="true" signature="279:1397" ph="{...}" />
+            <marker date="1564758656800" expanded="true" signature="399:459" ph="{...}" />
+            <marker date="1564758656800" expanded="true" signature="546:635" ph="{...}" />
+            <marker date="1564758656800" expanded="true" signature="730:847" ph="{...}" />
+            <marker date="1564758656800" expanded="true" signature="946:1065" ph="{...}" />
+            <marker date="1564758656800" expanded="true" signature="1144:1227" ph="{...}" />
+            <marker date="1564758656800" expanded="true" signature="1315:1391" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/18/1e86c897/WebHostBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Controllers/ToursController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <marker date="1564749013819" expanded="false" signature="6:220" ph="..." />
+            <marker date="1564749013819" expanded="true" signature="259:731" ph="{...}" />
+            <marker date="1564749013819" expanded="true" signature="328:729" ph="{...}" />
+            <marker date="1564749013819" expanded="true" signature="452:516" ph="{...}" />
+            <marker date="1564749013819" expanded="true" signature="622:723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/ApiOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1564781658548" expanded="true" signature="36:169" ph="{...}" />
+            <marker date="1564781658548" expanded="true" signature="66:167" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/app.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Static/StaticRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <marker date="1564782016282" expanded="false" signature="6:82" ph="..." />
+            <marker date="1564782016282" expanded="true" signature="135:2802" ph="{...}" />
+            <marker date="1564782016282" expanded="true" signature="178:2800" ph="{...}" />
+            <marker date="1564782016282" expanded="true" signature="279:1230" ph="{...}" />
+            <marker date="1564782016282" expanded="true" signature="512:696" ph="{...}" />
+            <marker date="1564782016282" expanded="true" signature="838:1208" ph="{...}" />
+            <marker date="1564782016282" expanded="true" signature="1012:1193" ph="{...}" />
+            <marker date="1564782016282" expanded="true" signature="1512:2794" ph="{...}" />
+            <marker date="1564782016282" expanded="true" signature="2072:2593" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/GeneratedToursRepositoryOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Abstractions/IToursRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/GeneratedToursRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1564783719305" expanded="true" signature="36:207" ph="{...}" />
+            <marker date="1564783719305" expanded="true" signature="71:205" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderAggregatorOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="42" />
+          <folding>
+            <marker date="1564783784594" expanded="true" signature="36:206" ph="{...}" />
+            <marker date="1564783784594" expanded="true" signature="81:204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <marker date="1564784011866" expanded="false" signature="6:122" ph="..." />
+            <marker date="1564784011866" expanded="true" signature="149:826" ph="{...}" />
+            <marker date="1564784011866" expanded="true" signature="176:824" ph="{...}" />
+            <marker date="1564784011866" expanded="true" signature="229:303" ph="{...}" />
+            <marker date="1564784011866" expanded="true" signature="378:818" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1776">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <marker date="1564786236882" expanded="true" signature="6:480" ph="..." />
+            <marker date="1564786236882" expanded="true" signature="536:3879" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="603:3877" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="814:1207" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="1302:1431" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="1524:1651" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="1712:1794" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="1861:1946" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="2005:2087" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="2142:2226" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="2327:2865" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="2458:2794" ph="{...}" />
+            <marker date="1564786236882" expanded="true" signature="2875:3871" ph="Utilities" />
+            <marker date="1564786236882" expanded="true" signature="2991:3851" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/ProviderAggregator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-556">
+          <folding>
+            <marker date="1564786233665" expanded="true" signature="6:392" ph="..." />
+            <marker date="1564786233665" expanded="true" signature="425:3716" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="497:3714" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="774:868" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="963:1620" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="1218:1289" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="1331:1509" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="1414:1495" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="1713:2368" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="1966:2037" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="2079:2257" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="2162:2243" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="2429:2516" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="2583:2673" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="2732:2819" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="2874:2993" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="3094:3708" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="3322:3393" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="3435:3613" ph="{...}" />
+            <marker date="1564786233665" expanded="true" signature="3518:3599" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Registration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <marker date="1564786236885" expanded="false" signature="6:209" ph="..." />
+            <marker date="1564786236885" expanded="true" signature="242:959" ph="{...}" />
+            <marker date="1564786236885" expanded="true" signature="281:957" ph="{...}" />
+            <marker date="1564786236885" expanded="true" signature="374:669" ph="{...}" />
+            <marker date="1564786236885" expanded="true" signature="764:951" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Abstractions/ILocationsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <marker date="1564608967836" expanded="false" signature="6:96" ph="..." />
+            <marker date="1564608967836" expanded="true" signature="155:408" ph="{...}" />
+            <marker date="1564608967836" expanded="true" signature="201:406" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Repositories/LocationsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1564786224320" expanded="false" signature="6:219" ph="..." />
+            <marker date="1564786224320" expanded="true" signature="265:958" ph="{...}" />
+            <marker date="1564786224320" expanded="true" signature="329:956" ph="{...}" />
+            <marker date="1564786224320" expanded="true" signature="395:482" ph="{...}" />
+            <marker date="1564786224320" expanded="true" signature="549:639" ph="{...}" />
+            <marker date="1564786224320" expanded="true" signature="701:788" ph="{...}" />
+            <marker date="1564786224320" expanded="true" signature="837:950" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1564786224324" expanded="false" signature="6:245" ph="..." />
+            <marker date="1564786224324" expanded="true" signature="272:1572" ph="{...}" />
+            <marker date="1564786224324" expanded="true" signature="299:1570" ph="{...}" />
+            <marker date="1564786224324" expanded="true" signature="415:479" ph="{...}" />
+            <marker date="1564786224324" expanded="true" signature="547:1446" ph="{...}" />
+            <marker date="1564786224324" expanded="true" signature="1136:1434" ph="{...}" />
+            <marker date="1564786224324" expanded="true" signature="1502:1564" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/TuiProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+          <folding>
+            <marker date="1564786236878" expanded="false" signature="6:177" ph="..." />
+            <marker date="1564786236878" expanded="true" signature="219:472" ph="{...}" />
+            <marker date="1564786236878" expanded="true" signature="267:470" ph="{...}" />
+            <marker date="1564786236878" expanded="true" signature="444:464" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <marker date="1564786236888" expanded="true" signature="6:176" ph="..." />
+            <marker date="1564786236888" expanded="true" signature="219:478" ph="{...}" />
+            <marker date="1564786236888" expanded="true" signature="269:476" ph="{...}" />
+            <marker date="1564786236888" expanded="true" signature="450:470" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

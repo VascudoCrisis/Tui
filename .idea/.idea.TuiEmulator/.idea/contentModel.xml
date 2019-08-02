@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TuiEmulator.Api" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cities.txt" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="LocationsController.cs" t="Include" />
+          <e p="ToursController.cs" t="Include" />
+        </e>
+        <e p="Countries.txt" t="Include" />
+        <e p="Hotels.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="TuiEmulator.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="TuiEmulator.Api.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TuiEmulator.Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IDictService.cs" t="Include" />
+        <e p="ISearchService.cs" t="Include" />
+        <e p="IToursProviderService.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ApartmentsType.cs" t="Include" />
+          <e p="City.cs" t="Include" />
+          <e p="Country.cs" t="Include" />
+          <e p="Hotel.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="SearchRequest.cs" t="Include" />
+          </e>
+          <e p="Response" t="Include" />
+          <e p="Tour.cs" t="Include" />
+          <e p="TourProvider.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="TuiEmulator.Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Options" t="Include">
+          <e p="ApiOptions.cs" t="Include" />
+          <e p="ProviderAggregatorOptions.cs" t="Include" />
+          <e p="ProviderOptions.cs" t="Include" />
+        </e>
+        <e p="OrderBy.cs" t="Include" />
+        <e p="Specifications" t="Include">
+          <e p="Abstractions" t="Include">
+            <e p="AndSpecification.cs" t="Include" />
+            <e p="Specification.cs" t="Include" />
+          </e>
+          <e p="CityOfDepartureSpecification.cs" t="Include" />
+          <e p="GuestsCountSpecification.cs" t="Include" />
+          <e p="NightsFromCountSpecification.cs" t="Include" />
+          <e p="NightsToCountSpecification.cs" t="Include" />
+          <e p="TourCitySpecification.cs" t="Include" />
+          <e p="TourStartDatepecification.cs" t="Include" />
+        </e>
+        <e p="TuiEmulator.Common.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TuiEmulator.Providers" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Extensions" t="Include">
+          <e p="EnumerableExtensions.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="TuiEmulator.Providers.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Providers" t="Include">
+          <e p="Abstractions" t="Include">
+            <e p="ProviderBase.cs" t="Include" />
+          </e>
+          <e p="OtherProvider.cs" t="Include" />
+          <e p="ProviderAggregator.cs" t="Include" />
+          <e p="TuiProvider.cs" t="Include" />
+        </e>
+        <e p="Registration.cs" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="Abstractions" t="Include">
+            <e p="ILocationsRepository.cs" t="Include" />
+          </e>
+          <e p="LocationsRepository.cs" t="Include" />
+          <e p="Static" t="Include">
+            <e p="StaticRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TuiEmulator.Providers.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TuiEmulator.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_TuiEmulator.-2133167056.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+  </component>
+</project>
