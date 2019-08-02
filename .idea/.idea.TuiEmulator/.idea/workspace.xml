@@ -2,102 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac26520e-4d5b-4dcb-9fd0-48fd4309c3b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TuiEmulator/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Cities.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Controllers/LocationsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Controllers/ToursController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Countries.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Hotels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/TuiEmulator.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/app.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/Cities.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/Countries.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Api.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/bin/Debug/netcoreapp2.2/TuiEmulator.Common.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.RazorTargetAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/Debug/netcoreapp2.2/TuiEmulator.Api.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/TuiEmulator.Api.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/TuiEmulator.Api.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/TuiEmulator.Api.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Api/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/IDictService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/ISearchService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/IToursProviderService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/ApartmentsType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/City.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Country.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Hotel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Requests/SearchRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/Tour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Models/TourProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Options/ApiOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderAggregatorOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/OrderBy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/AndSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/Abstractions/Specification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/CityOfDepartureSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/GuestsCountSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/NightsFromCountSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/NightsToCountSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourCitySpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/Specifications/TourStartDatepecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/TuiEmulator.Common.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/TuiEmulator.Common.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/TuiEmulator.Common.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/TuiEmulator.Common.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Common/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Extensions/EnumerableExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/ProviderAggregator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Providers/TuiProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Registration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Abstractions/ILocationsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/LocationsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/Static/StaticRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.Providers/TuiEmulator.Providers.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuiEmulator.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuiEmulator.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/TuiEmulator.Api/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="105">
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding>
                 <marker date="1564786236888" expanded="true" signature="6:176" ph="..." />
                 <marker date="1564786236888" expanded="true" signature="219:478" ph="{...}" />
@@ -196,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="179">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -365,13 +270,13 @@
         <option value="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderAggregatorOptions.cs" />
         <option value="$PROJECT_DIR$/TuiEmulator.Common/Options/ProviderOptions.cs" />
         <option value="$PROJECT_DIR$/TuiEmulator.Api/Program.cs" />
-        <option value="$PROJECT_DIR$/TuiEmulator.Api/appsettings.json" />
         <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs" />
         <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/ProviderAggregator.cs" />
         <option value="$PROJECT_DIR$/TuiEmulator.Api/Startup.cs" />
         <option value="$PROJECT_DIR$/TuiEmulator.Providers/Repositories/LocationsRepository.cs" />
         <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/TuiProvider.cs" />
         <option value="$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs" />
+        <option value="$PROJECT_DIR$/TuiEmulator.Api/appsettings.json" />
       </list>
     </option>
   </component>
@@ -499,12 +404,12 @@
       <workItem from="1564572784331" duration="9628000" />
       <workItem from="1564609374101" duration="490000" />
       <workItem from="1564610017784" duration="1767000" />
-      <workItem from="1564656231870" duration="33493000" />
+      <workItem from="1564656231870" duration="33664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70949000" />
+    <option name="totallyTimeSpent" value="71120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1027,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/Abstractions/ProviderBase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1776">
@@ -1158,14 +1056,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TuiEmulator.Providers/Providers/OtherProvider.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="105">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
             <marker date="1564786236888" expanded="true" signature="6:176" ph="..." />
             <marker date="1564786236888" expanded="true" signature="219:478" ph="{...}" />
             <marker date="1564786236888" expanded="true" signature="269:476" ph="{...}" />
             <marker date="1564786236888" expanded="true" signature="450:470" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TuiEmulator.Api/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
