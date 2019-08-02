@@ -1,9 +1,0 @@
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.deps.json
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.dll
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/bin/Debug/netstandard2.0/TuiEmulator.Common.pdb
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csprojAssemblyReference.cache
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.csproj.CoreCompileInputs.cache
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.AssemblyInfoInputs.cache
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.AssemblyInfo.cs
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.dll
-/Users/vascudo/git/Github/TuiEmulator/TuiEmulator.Common/obj/Debug/netstandard2.0/TuiEmulator.Common.pdb
