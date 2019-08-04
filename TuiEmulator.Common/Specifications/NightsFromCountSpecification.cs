@@ -5,6 +5,9 @@ using TuiEmulator.Common.Specifications.Abstractions;
 
 namespace TuiEmulator.Common.Specifications
 {
+    /// <summary>
+    ///     Фильтр по минимальному количеству ночей
+    /// </summary>
     public class NightsFromCountSpecification : Specification<Tour>
     {
         private readonly int _value;

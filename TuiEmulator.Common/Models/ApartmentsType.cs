@@ -1,5 +1,8 @@
 namespace TuiEmulator.Common.Models
 {
+    /// <summary>
+    ///     Тип апартаментов
+    /// </summary>
     public enum ApartmentsType
     {
         Standard = 0,

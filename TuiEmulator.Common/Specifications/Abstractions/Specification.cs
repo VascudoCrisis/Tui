@@ -7,6 +7,7 @@ namespace TuiEmulator.Common.Specifications.Abstractions
     {
         internal abstract Expression<Func<T, bool>> ToExpression();
 
+
         public static Specification<T> operator &(Specification<T> left, Specification<T> right)
         {
             if (left == null) return right;

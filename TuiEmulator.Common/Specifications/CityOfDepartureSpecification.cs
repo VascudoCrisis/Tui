@@ -5,6 +5,9 @@ using TuiEmulator.Common.Specifications.Abstractions;
 
 namespace TuiEmulator.Common.Specifications
 {
+    /// <summary>
+    ///     Фильтр по городу отправления
+    /// </summary>
     public class CityOfDepartureSpecification : Specification<Tour>
     {
         private readonly int _cityId;

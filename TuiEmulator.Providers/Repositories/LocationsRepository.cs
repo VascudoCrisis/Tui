@@ -7,6 +7,9 @@ using TuiEmulator.Providers.Repositories.Static;
 
 namespace TuiEmulator.Providers.Repositories
 {
+    /// <summary>
+    ///     Репозиторий мест
+    /// </summary>
     internal class LocationsRepository : ILocationsRepository
     {
         public async Task<IEnumerable<City>> GetAllCities()

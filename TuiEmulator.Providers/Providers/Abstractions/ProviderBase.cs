@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using TuiEmulator.Common;
 using TuiEmulator.Common.Models;
-using TuiEmulator.Common.Models.Requests;
 using TuiEmulator.Common.Options;
+using TuiEmulator.Common.Requests;
+using TuiEmulator.Common.Services;
 using TuiEmulator.Common.Specifications;
 using TuiEmulator.Common.Specifications.Abstractions;
 using TuiEmulator.Providers.Extensions;
@@ -14,6 +14,9 @@ using TuiEmulator.Providers.Repositories.Static;
 
 namespace TuiEmulator.Providers.Providers.Abstractions
 {
+    /// <summary>
+    ///     Базовый класс поставщика туров
+    /// </summary>
     internal abstract class ProviderBase : IToursProviderService
     {
         private readonly ILocationsRepository _locationsRepository;
@@ -24,7 +27,6 @@ namespace TuiEmulator.Providers.Providers.Abstractions
         {
             _locationsRepository = locationsRepository;
 
-
             var provider = new TourProvider {Id = options.Id, Title = options.Title};
 
             _tours = Enumerable.Range(0, options.ToursCount)
@@ -34,36 +36,43 @@ namespace TuiEmulator.Providers.Providers.Abstractions
                 .ToArray();
         }
 
+        /// <inheritdoc />
         public async Task<IEnumerable<City>> GetAllCitiesOfDeparture(CancellationToken token)
         {
             return await Task.FromResult(_tours.Select(tour => tour.CityOfDeparture).Uniq(city => city.Id));
         }
 
+        /// <inheritdoc />
         public async Task<IEnumerable<City>> GetAllCitiesOdArrival(CancellationToken token)
         {
             return await Task.FromResult(_tours.Select(tour => tour.CityOfArrival).Uniq(city => city.Id));
         }
 
+        /// <inheritdoc />
         public async Task<IEnumerable<City>> GetAllCities()
         {
             return await _locationsRepository.GetAllCities();
         }
 
+        /// <inheritdoc />
         public async Task<IEnumerable<Country>> GetAllCountries()
         {
             return await _locationsRepository.GetAllCountries();
         }
 
+        /// <inheritdoc />
         public async Task<IEnumerable<Hotel>> GetHotels()
         {
             return await _locationsRepository.GetAllHotels();
         }
 
+        /// <inheritdoc />
         public async Task<Hotel> GetHotelById(int id)
         {
             return await _locationsRepository.GetHotelById(id);
         }
 
+        /// <inheritdoc />
         public async Task<IEnumerable<Tour>> Search(SearchRequest request, CancellationToken token)
         {
             await Task.Delay(StaticRepository.Random.Next(3000, 17001), token);
@@ -83,6 +92,11 @@ namespace TuiEmulator.Providers.Providers.Abstractions
 
         #region Utilities
 
+        /// <summary>
+        ///     Получение обобщенной спецификации
+        /// </summary>
+        /// <param name="fields">Поля поиска</param>
+        /// <returns>Обобщенная спецификация</returns>
         private Specification<Tour> GetAggregatedSpecification(SearchRequest.SearchFields fields)
         {
             Specification<Tour> spec = null;

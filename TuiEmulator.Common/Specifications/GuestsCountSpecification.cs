@@ -5,6 +5,9 @@ using TuiEmulator.Common.Specifications.Abstractions;
 
 namespace TuiEmulator.Common.Specifications
 {
+    /// <summary>
+    ///     Фильтр по количеству гостей
+    /// </summary>
     public class GuestsCountSpecification : Specification<Tour>
     {
         private readonly int _count;

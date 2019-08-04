@@ -1,18 +1,33 @@
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using TuiEmulator.Common.Models;
 
-namespace TuiEmulator.Providers.Repositories.Abstractions
+namespace TuiEmulator.Common.Services
 {
     /// <summary>
     ///     Сервис мест
     /// </summary>
-    internal interface ILocationsRepository
+    public interface IDictService
     {
+        /// <summary>
+        ///     Получение списка городов отправления
+        /// </summary>
+        /// <param name="token">Токен отмены</param>
+        /// <returns>Список городов</returns>
+        Task<IEnumerable<City>> GetAllCitiesOfDeparture(CancellationToken token);
+
+        /// <summary>
+        ///     Получение спика городов отправления
+        /// </summary>
+        /// <param name="token">Токен отмены</param>
+        /// <returns>Список городов</returns>
+        Task<IEnumerable<City>> GetAllCitiesOdArrival(CancellationToken token);
+
         /// <summary>
         ///     Получение списка всех городов
         /// </summary>
-        /// <returns>Список стран</returns>
+        /// <returns>Список городов</returns>
         Task<IEnumerable<City>> GetAllCities();
 
         /// <summary>
@@ -25,7 +40,7 @@ namespace TuiEmulator.Providers.Repositories.Abstractions
         ///     Получение списка всех отелей
         /// </summary>
         /// <returns>Список отелей</returns>
-        Task<IEnumerable<Hotel>> GetAllHotels();
+        Task<IEnumerable<Hotel>> GetHotels();
 
         /// <summary>
         ///     Получение отеля по идентификатору

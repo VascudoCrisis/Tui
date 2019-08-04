@@ -5,6 +5,15 @@ namespace TuiEmulator.Providers.Extensions
 {
     public static class EnumerableExtensions
     {
+        /// <summary>
+        ///     Получение уникальных значений из коллеции.
+        ///     При наличии нескольких значений, выбирает первое и отсеивает оставшиеся
+        /// </summary>
+        /// <param name="collection">Коллеция элементов</param>
+        /// <param name="getProperty">Функция получения значения свойства</param>
+        /// <typeparam name="TType">Тип элемента</typeparam>
+        /// <typeparam name="TProperty">Тип свойства</typeparam>
+        /// <returns>Отфильтрованный список элементов</returns>
         public static IEnumerable<TType> Uniq<TType, TProperty>(this IEnumerable<TType> collection,
             Func<TType, TProperty> getProperty)
         {
