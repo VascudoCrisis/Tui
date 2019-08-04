@@ -18,6 +18,6 @@ namespace TuiEmulator.Common.Options
         /// <summary>
         ///     Количество туров для генерации
         /// </summary>
-        public int ToursCount { get; set; }
+        public long ToursCount { get; set; }
     }
 }

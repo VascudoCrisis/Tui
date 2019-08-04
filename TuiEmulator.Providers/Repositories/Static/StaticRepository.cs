@@ -43,7 +43,7 @@ namespace TuiEmulator.Providers.Repositories.Static
 
         public static Hotel[] Hotels { get; }
 
-        public static Tour GetTour(TourProvider provider)
+        public static Tour GetTour(TourProvider provider, long index)
         {
             var currentDate = DateTime.Now;
             var hotelId = Random.Next(0, Hotels.Length);
@@ -57,6 +57,8 @@ namespace TuiEmulator.Providers.Repositories.Static
 
             var tour = new Tour
             {
+                Id = index,
+                Title = $"{provider.Title} tour {index}",
                 Hotel = Hotels.Single(hotel => hotel.Id == hotelId),
                 Nights = nights,
                 CityOfArrival = Cities.Single(city => city.Id == cityOdArrivalId),

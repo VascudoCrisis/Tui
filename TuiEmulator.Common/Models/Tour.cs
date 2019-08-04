@@ -7,6 +7,8 @@ namespace TuiEmulator.Common.Models
     /// </summary>
     public class Tour
     {
+        public long Id { get; set; }
+
         /// <summary>
         ///     Название
         /// </summary>

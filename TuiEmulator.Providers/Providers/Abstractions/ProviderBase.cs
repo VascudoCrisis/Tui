@@ -1,7 +1,10 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
+using TuiEmulator.Common.Enums;
 using TuiEmulator.Common.Models;
 using TuiEmulator.Common.Options;
 using TuiEmulator.Common.Requests;
@@ -29,10 +32,10 @@ namespace TuiEmulator.Providers.Providers.Abstractions
 
             var provider = new TourProvider {Id = options.Id, Title = options.Title};
 
-            _tours = Enumerable.Range(0, options.ToursCount)
+            _tours = Enumerable.Range(0, (int) options.ToursCount)
                 .AsParallel()
                 .WithDegreeOfParallelism(4)
-                .Select(i => StaticRepository.GetTour(provider))
+                .Select(i => StaticRepository.GetTour(provider, i))
                 .ToArray();
         }
 
@@ -84,13 +87,55 @@ namespace TuiEmulator.Providers.Providers.Abstractions
                 if (aggregatedSpecification == null)
                     return _tours.AsQueryable().Take(request.Take);
 
-                return _tours.AsQueryable().Where(aggregatedSpecification).Take(request.Take);
+                return Sort(_tours.AsQueryable().Where(aggregatedSpecification), request.OrderBy,
+                    request.OrderDirection).Take(request.Take);
             }
 
             return _tours.AsQueryable().Take(request.Take);
         }
 
+
         #region Utilities
+
+        /// <summary>
+        ///     Отсортировать коллекцию туров
+        /// </summary>
+        /// <param name="tours">Коллекция туров</param>
+        /// <param name="orderBy">Поле для сортировки</param>
+        /// <param name="orderDirection">Направление сортировки</param>
+        /// <returns>Отсортированная коллекция туров</returns>
+        /// <exception cref="ArgumentException">Поле сортировки не найдено</exception>
+        private IQueryable<Tour> Sort(IQueryable<Tour> tours, OrderBy orderBy, OrderDirection orderDirection)
+        {
+            switch (orderBy)
+            {
+                case OrderBy.Date:
+                    return SortByDirection(tours, tour => tour.DateOfDeparture, orderDirection);
+                case OrderBy.Name:
+                    return SortByDirection(tours, tour => tour.Title, orderDirection);
+                case OrderBy.Price:
+                    return SortByDirection(tours, tour => tour.PricePerGuest, orderDirection);
+            }
+
+            throw new ArgumentException(nameof(orderBy));
+        }
+
+        /// <summary>
+        ///     Применение направления сортировки
+        /// </summary>
+        /// <param name="tours">Коллекция туров</param>
+        /// <param name="field">Поле</param>
+        /// <param name="direction">Направление</param>
+        /// <typeparam name="TParameter">Тип поля</typeparam>
+        /// <returns>Отсортированная коллекция туров</returns>
+        private IQueryable<Tour> SortByDirection<TParameter>(IQueryable<Tour> tours,
+            Expression<Func<Tour, TParameter>> field,
+            OrderDirection direction)
+        {
+            if (direction == OrderDirection.Asc)
+                return tours.OrderBy(field);
+            return tours.OrderByDescending(field);
+        }
 
         /// <summary>
         ///     Получение обобщенной спецификации
